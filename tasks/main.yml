@@ -1,3 +1,6 @@
 ---
 - name: Test Tasks
   debug: msg="From Test Roles"
+
+- name: Ansible Test Var
+  debug: msg="Test Var ansible_test={{ ansible_test }}"
